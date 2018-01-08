@@ -1,0 +1,73 @@
+body {
+    font-family: 'Short Stack', cursive;
+    margin: auto;
+    color: white;
+    background: #88d3ce;
+}
+
+header {
+    background: #6e45e2;
+    padding: 10px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+img {
+    height: 30px;
+    padding-right: 15px;
+}
+
+#user_section {
+    background-image: linear-gradient(to top, #88d3ce 0%, #6e45e2 100%);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+}
+
+button {
+    background-color: #555555;
+    border: none;
+    color: white;
+    padding: 6px 15px;
+    margin: 4px;
+    font-size: 13px;
+    border-radius: 4px;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ol {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+li:hover {
+    font-size: 20px;
+}
+
+.deleteButton {
+    margin-left: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+input {
+    padding: 6px 15px;
+    border: 2px solid #555555;
+    border-radius: 4px;
+}
+
+footer {
+    background: #88d3ce;
+    font-size: 12px;
+    text-align: center;
+}

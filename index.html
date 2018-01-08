@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Todo List by Nicolas Peyrichou</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link href="https://fonts.googleapis.com/css?family=Short+Stack" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1><img src = "check_mark_by_nicolas_peyrichou.png">Todo List</h1>
+        </header>
+        
+        <section id="user_section">
+            <div>
+                <button onclick="handlers.toggleAll()">Toggle All</button>
+            </div>
+
+            <div>
+                <button onclick="handlers.addTodo()">Add</button>
+                <input id="addTodoTextInput" type="text" placeholder="Add todo here...">
+            </div>
+
+            <div>
+                <button onclick="handlers.changeTodo()">Change Todo</button>
+                <input id="changeTodoPositionInput" type="number" placeholder="Select todo number">
+                <input id="changeTodoTextInput" type="text" placeholder="Change todo here...">
+            </div>
+
+            <div>
+                <button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+                <input id="toggleCompletedPositionInput" type="number" placeholder="Toggle a todo">
+            </div>
+            
+            <ol>
+            </ol>
+        </section>
+
+        <footer>
+            <p>Todo List by Nicolas Peyrichou, Copyright &copy; 2018</p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
