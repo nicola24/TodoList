@@ -1,4 +1,4 @@
-###  A simple to do list in a pure vanilla javascript
+###  A simple to do list in pure vanilla javascript
 
 [DEMO PAGE HERE](http://htmlpreview.github.io/?https://github.com/nicola24/TodoList/blob/master/index.html)
 
